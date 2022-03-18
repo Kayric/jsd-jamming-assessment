@@ -1,5 +1,5 @@
 const clientId = '6dd22c5c43f043c884fbcdc68dfc8ba7';
-const redirectUri = 'https://homely-teaching.surge.sh/';
+const redirectUri = 'https://fungwithme.surge.sh';
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken = undefined;
 let expiresIn = undefined;
