@@ -1,5 +1,5 @@
 const clientId = '6dd22c5c43f043c884fbcdc68dfc8ba7'; 
-const redirectUri = 'http://localhost:3000/'; 
+const redirectUri = 'https://homely-teaching.surge.sh/'; 
 const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
 let accessToken;
 let expiresIn;
